@@ -20,8 +20,7 @@
   document.documentElement.classList.add('js');
   /* ============ Google Tag Manager + GA4 ============
      Na hospedagem final:
-     1) Troque GTM-XXXXXXX pelo ID do contêiner e remova o comentário da linha abaixo
-        (e do <noscript> logo após a abertura do <body>).
+     1) Contêiner GTM-WG6Z3TTG ativo (snippet abaixo e <noscript> logo após a abertura do <body>).
      2) No GTM: tag "Google Tag" do GA4 (G-XXXXXXXXXX) em todas as páginas e tags de evento GA4
         acionadas pelos eventos personalizados enviados por esta página:
         cta_click · form_open · form_start · form_error · generate_lead · virtual_page_view · file_download · guide_preview_complete
@@ -29,7 +28,7 @@
      3) No GA4, marque generate_lead e file_download como eventos-chave (conversões).
      Nenhum dado pessoal (nome, e-mail, WhatsApp) é enviado ao dataLayer. */
   window.dataLayer = window.dataLayer || [];
-  /* (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-XXXXXXX'); */
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WG6Z3TTG');
 </script>
 <style>
 /* Layout: monografia de arquitetura. Grade de 12 colunas, imagens em sangria e o livro como objeto que conduz a leitura. */
@@ -600,7 +599,7 @@ dialog.fm::backdrop{ background:transparent }
 </style>
 </head>
 <body>
-<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WG6Z3TTG" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
   <defs>
